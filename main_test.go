@@ -14,9 +14,9 @@ func TestTally(t *testing.T) {
 			want: "1",
 		},
 		{
-			name: "single int",
-			s:    "1",
-			want: "1",
+			name: "add two ints",
+			s:    "2 + 2",
+			want: "4",
 		},
 	}
 
